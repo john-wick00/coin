@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Daily Rewards</title>
+    <link rel="stylesheet" href="/static/home.css">
+    <script src="https://telegram.org/js/telegram-web-app.js?2"></script>
+    <script src="/static/home.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Your daily rewards</h1>
+        </div>
+        <div class="rewards">
+            <div class="reward-item">
+                <img src="/static/blum-points.png" alt="Blum Points" class="reward-icon">
+                <p>10 Blum Points</p>
+            </div>
+            <div class="reward-item">
+                <img src="/static/play-pass.png" alt="Play Passes" class="reward-icon">
+                <p>3 Play Passes</p>
+            </div>
+        </div>
+        <p class="tip">Come back tomorrow for check-in day 2<br>Tip: Skipping a day resets your check-in.</p>
+
+        <!-- Added user info display -->
+        <div id="user-info"></div>
+    </div>
+    
+    <!-- Button moved outside container and into footer -->
+    <div class="footer">
+        <button class="continue-button" id="continue-button">Continue</button>
+    </div>
+</body>
+</html>

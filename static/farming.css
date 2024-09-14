@@ -1,0 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Space between content and button */
+    height: 100vh;  /* Full viewport height */
+    margin: 0;
+    background-color: black;  /* Dark background */
+    color: white;  /* Light text for contrast */
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    flex-grow: 1;  /* Push the container up */
+}
+
+/* Header styling */
+h1 {
+    color: white;
+    font-size: 28px;
+}
+
+/* Virtual dollars styling */
+.virtual-dollars {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #48CFCB;
+}
+
+/* Button styling */
+.farming-button {
+    background-color: white;  /* White button */
+    color: black;  /* Black text */
+    font-size: 18px;  /* Increase the font size */
+    border: none;
+    padding: 20px 40px;  /* Larger padding for bigger button */
+    border-radius: 5px;  /* Slightly rounded corners */
+    cursor: pointer;
+    width: 90%;  /* Increase button width to 90% */
+    max-width: 600px;  /* Maximum width for larger screens */
+    margin: 0 auto 20px auto;  /* Center the button and add space at bottom */
+    position: absolute;
+    bottom: 20px;  /* Position button at the bottom */
+    left: 50%;
+    transform: translateX(-50%);  /* Center the button horizontally */
+}
+
+.farming-button:hover {
+    background-color: #f0f0f0;  /* Light grey on hover */
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

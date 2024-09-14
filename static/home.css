@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Space between content and button */
+    height: 100vh;  /* Set height of body to full viewport */
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 28px;
+}
+
+.rewards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.reward-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 45%;
+}
+
+.reward-item p {
+    margin-top: 10px;
+    color: white;
+}
+
+.reward-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.tip {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.continue-button {
+    background-color: white;
+    color: black;
+    font-size: 18px;  /* Increase the font size */
+    border: none;
+    padding: 15px 30px;  /* Larger padding for bigger button */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;  /* Make button take 80% of width */
+    max-width: 400px;
+    margin: 20px auto;  /* Center it horizontally */
+    position: relative;
+}
+
+.continue-button:hover {
+    background-color: #f0f0f0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Move button slightly above bottom */
+}
+

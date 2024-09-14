@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming</title>
+    <link rel="stylesheet" href="/static/farming.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Farming Mode</h1>
+        <div class="virtual-dollars">
+            <p>Virtual Dollars: {{ virtual_dollars }}</p>
+        </div>
+        <form action="{{ url_for('start_farming') }}" method="POST">
+            <button type="submit" class="farming-button">Start Farming</button>
+        </form>
+    </div>
+</body>
+</html>
